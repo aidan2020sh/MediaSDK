@@ -848,6 +848,7 @@ static inline mfxPlatform MakePlatform(eMFXHWType type, mfxU16 device_id)
                          platform.MediaAdapterType = MFX_MEDIA_DISCRETE;
                          platform.CodeName = MFX_PLATFORM_DG2;           break;
     case MFX_HW_MTL    : platform.CodeName = MFX_PLATFORM_METEORLAKE;    break;
+    case MFX_HW_ARL    : platform.CodeName = MFX_PLATFORM_ARROWLAKE;     break;
     case MFX_HW_ELG    : platform.CodeName = MFX_PLATFORM_ELASTICG;      break;
 #endif //STRIP_EMBARGO
     default:

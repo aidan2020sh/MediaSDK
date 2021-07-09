@@ -289,6 +289,7 @@ mfxStatus VideoDECODEH264::Init(mfxVideoParam *par)
             && m_core->GetHWType() != MFX_HW_DG2
             && m_core->GetHWType() != MFX_HW_PVC
             && m_core->GetHWType() != MFX_HW_MTL
+            && m_core->GetHWType() != MFX_HW_ARL
             && m_core->GetHWType() != MFX_HW_ELG)
         {
              MFX_CHECK(m_vPar.mfx.FrameInfo.PicStruct == MFX_PICSTRUCT_PROGRESSIVE, MFX_ERR_UNSUPPORTED);

@@ -73,7 +73,8 @@ namespace mocks { namespace mfx
             IGFX_DG2        = 1270,
             IGFX_PVC        = 1271,
             IGFX_METEORLAKE = 1272,
-            IGFX_ELASTICG   = 1273,
+            IGFX_ARROWLAKE  = 1273,
+            IGFX_ELASTICG   = 1274,
 
             IGFX_GENNEXT               = 0x7ffffffe,
 
@@ -126,7 +127,8 @@ namespace mocks { namespace mfx
         HW_PVC       = HW_XE_HP_SDV + 2,
 
         HW_MTL       = 0x1700000,
-        HW_ELG       = HW_MTL + 1
+        HW_ARL       = HW_MTL + 1,
+        HW_ELG       = HW_MTL + 2
     };
 
 } }

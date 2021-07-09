@@ -49,7 +49,8 @@ enum eMFXHWType
     MFX_HW_DG2       = MFX_HW_XE_HP_SDV + 1,
     MFX_HW_PVC       = MFX_HW_XE_HP_SDV + 2,
 
-    MFX_HW_MTL       = 0x1700000
+    MFX_HW_MTL       = 0x1700000,
+    MFX_HW_ARL       = MFX_HW_MTL + 1
 #endif
 };
 
@@ -522,6 +523,7 @@ static inline const char *get_name(eMFXHWType platform) {
     case MFX_HW_DG2: return "DG2";
     case MFX_HW_PVC: return "PVC";
     case MFX_HW_MTL: return "MTL";
+    case MFX_HW_ARL: return "ARL";
 #endif
     case MFX_HW_UNKNOWN: default: return "UNKNOWN";
     }

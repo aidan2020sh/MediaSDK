@@ -96,7 +96,8 @@ enum eMFXHWType
     MFX_HW_PVC       = MFX_HW_XE_HP_SDV + 2,
 
     MFX_HW_MTL       = 0x1700000,
-    MFX_HW_ELG       = MFX_HW_MTL + 1
+    MFX_HW_ARL       = MFX_HW_MTL + 1,
+    MFX_HW_ELG       = MFX_HW_MTL + 2,
 #endif
 };
 

@@ -69,7 +69,7 @@ static ImplBase* CreateSpecific(
     if (hw == MFX_HW_DG2)
         impl = new AV1EHWDisp::DG2::MFXVideoENCODEAV1_HW(core, status, mode);
 #if !defined(MFX_VA_LINUX)
-    else if (hw == MFX_HW_MTL)
+    else if (hw == MFX_HW_MTL || hw == MFX_HW_ARL)
         impl = new AV1EHWDisp::MTL::MFXVideoENCODEAV1_HW(core, status, mode);
     else if (hw >= MFX_HW_ELG)
         impl = new AV1EHWDisp::ELG::MFXVideoENCODEAV1_HW(core, status, mode);

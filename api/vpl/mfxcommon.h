@@ -214,6 +214,7 @@ enum {
     MFX_PLATFORM_PONTE_VECCHIO  = 47,
     MFX_PLATFORM_METEORLAKE     = 51,
     MFX_PLATFORM_ELASTICG       = 52,
+    MFX_PLATFORM_ARROWLAKE      = 53,
 #endif
     MFX_PLATFORM_KEEMBAY        = 50, /*!< Code name Keem Bay. */
 };
